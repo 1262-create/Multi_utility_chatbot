@@ -2281,10 +2281,10 @@ tool_node=ToolNode(tools)
 load_dotenv()
 
 
-model = ChatOpenAI(
-    model="mistralai/devstral-2512:free",
-    api_key=os.environ["OPENROUTER_API_KEY"],
-    base_url="https://openrouter.ai/api/v1",)
+model = ChatGoogleGenerativeAI(
+    model="gemini-2.5-pro",
+    api_key=os.environ["GOOGLE_API_KEY"],
+    
 
 llm_with_tool=model.bind_tools(tools)
 
@@ -2344,5 +2344,6 @@ def thread_has_document(thread_id: str) -> bool:
 
 def thread_document_metadata(thread_id: str) -> dict:
     return _THREAD_METADATA.get(str(thread_id), {})
+
 
 
