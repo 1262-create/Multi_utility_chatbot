@@ -74,3 +74,8 @@ pysqlite3-binary>=0.5.3
 # Email (SMTP)
 # ===============================
 secure-smtplib>=0.1.1
+
+requests
+replicate
+python-dotenv
+
