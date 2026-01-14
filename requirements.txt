@@ -1,17 +1,55 @@
-# LangChain Core
-langchain
-langchain-core
+# Core LangChain + LangGraph
+langchain>=0.2.6
+langchain-core>=0.2.6
+langchain-community>=0.2.6
+langchain-openai>=0.1.14
+langgraph>=0.2.24
 
+# OpenRouter / OpenAI-compatible client
+openai>=1.30.1
 
+# Hugging Face
+langchain-huggingface>=0.0.3
+huggingface-hub>=0.23.0
 
-# Hugging Face Integration
-langchain-huggingface
-transformers
-huggingface-hub
+# Google Gemini (LLM + embeddings)
+langchain-google-genai>=1.0.3
+google-generativeai>=0.5.4
 
-# Environment Variable Management
-python-dotenv
+# Groq
+langchain-groq>=0.1.5
 
-# Machine Learning Utilities
-numpy
-scikit-learn
+# Vector DB + embeddings
+faiss-cpu>=1.8.0
+langchain-text-splitters>=0.2.1
+
+# PDF processing
+pypdf>=4.2.0
+
+# Environment variables
+python-dotenv>=1.0.1
+
+# Web & search
+duckduckgo-search>=5.3.0
+requests>=2.32.3
+
+# YouTube tools
+youtube-transcript-api>=0.6.2
+pytube>=15.0.0
+yt-dlp>=2024.8.6
+
+# Google Maps
+googlemaps>=4.10.0
+pytz>=2024.1
+
+# Data handling
+pandas>=2.2.2
+
+# Email
+secure-smtplib>=0.1.1
+
+# SQLite (builtin, but included for safety)
+pysqlite3-binary>=0.5.3
+
+# Typing / utilities
+typing-extensions>=4.12.2
